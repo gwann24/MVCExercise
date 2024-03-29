@@ -10,5 +10,6 @@ namespace MVCExercise.Data
         void InsertProduct(Product productToInsert);
         IEnumerable<Category> GetCategories();
         Product AssignCategory();
+        void DeleteProduct(Product product);
     }
 }
